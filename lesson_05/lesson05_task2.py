@@ -9,5 +9,6 @@ driver = webdriver.Chrome(
 driver.maximize_window()
 driver.get("http://uitestingplayground.com/dynamicid")
 search_input = driver.find_element(By.CSS_SELECTOR, ".btn.btn-primary")
+search_input.click()
 sleep(2)
 driver.quit()
