@@ -9,7 +9,8 @@ class StudentTable:
         with self.__db.connect() as conn:
             conn.execute(
                 text("""
-                    INSERT INTO student(user_id, level, education_form, subject_id)
+                    INSERT INTO student(
+                     user_id, level, education_form, subject_id)
                     VALUES (:user_id, :level, :education_form, :subject_id)
                 """),
                 {
