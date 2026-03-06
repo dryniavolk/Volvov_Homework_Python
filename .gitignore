@@ -126,3 +126,9 @@ Dockerfile.*.bak
 .DS_Store
 *.swp
 *.swo
+
+# Результаты тестов и отчёты
+results/
+final-report/
+allure-results/
+allure-report/
