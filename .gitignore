@@ -145,3 +145,26 @@ allure-results/
 allure-report/
 *.log
 pytest.log
+
+# Результаты тестов и отчёты
+results/
+final-report/
+allure-results/
+allure-result/        # ← добавить (у тебя именно так)
+allure-report/
+*.log
+pytest.log
+
+# Папки с отчетами (любые)
+**/history/
+**/widgets/
+**/data/
+**/export/
+**/plugin/
+**/history/
+**/widgets/
+**/data/
+**/export/
+**/plugin/
+lesson_10/final-report/
+lesson_10/results/
