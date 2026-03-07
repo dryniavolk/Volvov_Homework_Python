@@ -1,1 +1,0 @@
-[{"uid":"b915940079df93a7","name":"Тест оформления заказа в интернет-магазине","time":{"start":1772733563710,"stop":1772733581952,"duration":18242},"status":"passed","severity":"blocker"},{"uid":"f459d845843881ce","name":"Тест медленного калькулятора","time":{"start":1772733511513,"stop":1772733563705,"duration":52192},"status":"passed","severity":"critical"}]
